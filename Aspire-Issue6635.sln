@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire-Issue6635.AppHost", "D:\repos\paulomorgado\Aspire-Issue6635\Aspire-Issue6635.AppHost\Aspire-Issue6635.AppHost.csproj", "{D0750077-A905-44A6-AE8B-741815866902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire-Issue6635.ServiceDefaults", "D:\repos\paulomorgado\Aspire-Issue6635\Aspire-Issue6635.ServiceDefaults\Aspire-Issue6635.ServiceDefaults.csproj", "{ACAADE3B-28E1-549D-CB8C-D6BDE3F598B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire-Issue6635.ApiService", "D:\repos\paulomorgado\Aspire-Issue6635\Aspire-Issue6635.ApiService\Aspire-Issue6635.ApiService.csproj", "{ECBB99E8-C743-B0B1-E6B9-01088151750E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire-Issue6635.Web", "D:\repos\paulomorgado\Aspire-Issue6635\Aspire-Issue6635.Web\Aspire-Issue6635.Web.csproj", "{482AAC35-19EE-542B-C6F0-AC30B734B5D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "immages", "immages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		images\add-docker-support.png = images\add-docker-support.png
+		images\container-profile.png = images\container-profile.png
+		images\container-scaffolding-options.png = images\container-scaffolding-options.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0750077-A905-44A6-AE8B-741815866902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0750077-A905-44A6-AE8B-741815866902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0750077-A905-44A6-AE8B-741815866902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0750077-A905-44A6-AE8B-741815866902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAADE3B-28E1-549D-CB8C-D6BDE3F598B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAADE3B-28E1-549D-CB8C-D6BDE3F598B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAADE3B-28E1-549D-CB8C-D6BDE3F598B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAADE3B-28E1-549D-CB8C-D6BDE3F598B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBB99E8-C743-B0B1-E6B9-01088151750E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBB99E8-C743-B0B1-E6B9-01088151750E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBB99E8-C743-B0B1-E6B9-01088151750E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBB99E8-C743-B0B1-E6B9-01088151750E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482AAC35-19EE-542B-C6F0-AC30B734B5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482AAC35-19EE-542B-C6F0-AC30B734B5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482AAC35-19EE-542B-C6F0-AC30B734B5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482AAC35-19EE-542B-C6F0-AC30B734B5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9268BD88-259C-49DC-81A5-BE1D614378CF}
+	EndGlobalSection
+EndGlobal
